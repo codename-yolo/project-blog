@@ -162,10 +162,19 @@ html {
 /* SLIDER */
 
 .slider {
+  max-width: 100%;
+}
+
+
+
+.slider_container {
   position: relative;
   margin-top: var(--height-header);
   padding-top: 50%;
+  max-width: 100%;
+  max-height: 100%;
   background-image: url('../img/slide_image.jpeg');
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -267,6 +276,7 @@ html {
   transform: translate(-50%);
   width: 100%;
 }
+
 
 .dots {
   display: flex;
